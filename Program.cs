@@ -1,19 +1,4 @@
-﻿/* Напишите программу, которая принимает на вход число (А) и выдаёт сумму чисел от 1 до А.
-Console.Write("Введи число: ");
-int limit = int.Parse(Console.ReadLine()!);
-Console.WriteLine($"Сумма чисел от 1 до {limit} равна {GetSum(limit)}");
-Console.Write("Введи число: ");
-int Num = int.Parse(Console.ReadLine()!);
-Console.WriteLine($"Сумма чисел от 1 до {Num} равна {GetSum(Num)}");
-// ------------Методы---------------
-int GetSum(int A){
-    int sum = 0;
-    for(int i = 1; i <= A; i++){
-        sum += i; // sum = sum + i
-    }
-    return sum;
-}*/
-
+﻿
 /*Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
 Console.Write("Введи число A ");
 int Num = int.Parse(Console.ReadLine()!);
